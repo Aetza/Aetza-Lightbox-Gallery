@@ -1,7 +1,6 @@
 /**
- * Created by zimax_000 on 14/02/2017.
+ * Created by Maxime Zamoun on 14/02/2017.
  */
-
 
 var links = document.querySelectorAll("a.lb"),
     linksLength = links.length,
@@ -54,7 +53,6 @@ function goToImg(id) {
     currentSlide = (id + linksLength) % linksLength;
     showImg(links[currentSlide].href, currentSlide);
 }
-
 
 //ACTIONS
 
