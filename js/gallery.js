@@ -10,7 +10,7 @@ var links = document.querySelectorAll("a.lb"),
     nextBtn = document.getElementById("next"),
     currentSlide = 0;
 
-
+//Boucle sur les liens du fichier HTML
 for ( var i=0; i<linksLength; i++ ) {
     (function (currentI){
         links[currentI].addEventListener("click", function (e) {
