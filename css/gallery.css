@@ -1,0 +1,42 @@
+#gallery {
+    display: none;
+    position: absolute;
+    z-index: 0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+#overlay {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(51,51,51,0.8);
+    z-index: -1;
+}
+
+.btn {
+    position:absolute;
+    top:50%;
+    margin-top:-23px;
+}
+
+.left {
+    left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.right {
+    right:0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}

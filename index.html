@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Aetza Gallery</h1>
+        <p>LightBox Gallery </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        <a href="img/1.jpg" title="Afficher l'image originale" class="lb"><img src="img/1.jpg" alt="Miniature" class="img-responsive" /></a>
+        </div>
+        <div class="col-md-3">
+            <a href="img/2.jpg" title="Afficher l'image originale" class="lb"><img src="img/2.jpg" alt="Miniature" class="img-responsive" /></a>
+        </div>
+        <div class="col-md-3">
+            <a href="img/3.jpg" title="Afficher l'image originale" class="lb"><img src="img/3.jpg" alt="Miniature" class="img-responsive" /></a>
+        </div>
+        <div class="col-md-3">
+            <a href="img/4.jpg" title="Afficher l'image originale" class="lb"><img src="img/4.jpg" alt="Miniature" class="img-responsive" /></a>
+        </div>
+    </div>
+</div>
+
+<section id="gallery">
+    <div id="overlay"></div>
+    <button class="btn btn-primary btn-lg left" id="prev">&laquo;</button>
+    <button class="btn btn-primary btn-lg right" id="next">&raquo;</button>
+</section>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>
